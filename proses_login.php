@@ -8,6 +8,6 @@
         $_SESSION["username"]=$username;
         header("location:pengantar.php");
     }else{
-        header("location:index.html?login_error");
+        header("location:pengantar.php?login_error");
     }
 ?>
